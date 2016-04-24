@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Block">
+      <UniqueIdentifier>{eaef477a-7ddb-400f-9c4e-f5031a588b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Board">
+      <UniqueIdentifier>{fd21892d-6796-48e0-8819-f4fdab5621b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Console">
+      <UniqueIdentifier>{f44bcf87-1088-4246-a827-d6dbf0834503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameInfo">
+      <UniqueIdentifier>{9dc69bc9-af6b-4705-a91a-7588e9f9554c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tetirs">
+      <UniqueIdentifier>{175695c4-7ba0-4389-96dd-b3b090ae82be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Viewer">
+      <UniqueIdentifier>{b6961c57-ab9e-4dd8-a8e0-d78638a31d22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Block.h">
+      <Filter>Source Files\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Source Files\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Source Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInfo.h">
+      <Filter>Source Files\GameInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetris.h">
+      <Filter>Source Files\Tetirs</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer.h">
+      <Filter>Source Files\Viewer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInfo.cpp">
+      <Filter>Source Files\GameInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetris.cpp">
+      <Filter>Source Files\Tetirs</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer.cpp">
+      <Filter>Source Files\Viewer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
